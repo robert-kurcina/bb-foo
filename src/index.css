@@ -1,0 +1,8 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body {
+  margin: 0;
+  padding: 30px;
+  font-family: 'Open Sans', 'Lucida Grande', 'Lucida Sans Unicode', Tahoma,
+    sans-serif;
+}

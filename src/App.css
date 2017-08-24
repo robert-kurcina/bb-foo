@@ -1,0 +1,112 @@
+.App {
+  text-align: left;
+  margin: 0 auto;
+  min-width: 700x;
+}
+
+/** COLOR **/
+.gray-text {
+  color: #808080;
+}
+
+.gray-bg {
+  background-color: #808080;
+}
+
+.blue-text {
+  color: #3e88d2;
+}
+
+.blue-bg {
+  background-color: #3e88d2;
+}
+
+/** OVERRIDES **/
+.section-field {
+  text-align: center;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  margin: 4px;
+  margin-top: 80px;
+  padding: 30px;
+}
+
+.thumb-group-invite {
+  position: relative;
+  top: -100px;
+  margin-bottom: -120px;
+}
+
+.invite-and-approve-title {
+  font-weight: 300;
+  line-height: 1.5em;
+  color: #262626;
+  font-size: 36px;
+}
+
+.group-invite-title {
+  color: #923585;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.input-group > .input-group-btn:last-child > .selectpicker {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.input-group > .input-group-btn:first-child > .selectpicker {
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+
+.input-group {
+  width: 50%;
+  min-width: 300px;
+}
+
+.input-group-addon {
+  color: #ffffff;
+  background-color: #cccccc;
+  z-index: 100;
+  position: relative;
+  right: -4px;
+}
+
+.instruction-or {
+  margin: 0 0 15px 0;
+}
+
+.padded-wrapper {
+  padding: 10px 75px;
+}
+
+#clipboardUrl {
+  background-color: #eeeeee;
+  color: #3e88d2;
+  margin: 0 auto;
+}
+
+.a-link {
+  color: #3e88d2;
+  cursor: pointer;
+}
+
+.a-link:hover {
+  color: #cccccc;
+}
+
+.clean-button {
+  background-image: none;
+  border: none;
+  background-color: #3e88d2;
+  color: #ffffff;
+  text-shadow: none;
+}
+
+.disable-select {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
