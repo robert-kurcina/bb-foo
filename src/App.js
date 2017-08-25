@@ -49,65 +49,79 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <h1 className="invite-and-approve-title">Invite & Approve</h1>
-        <div className="input-group">
-          <span className="input-group-addon">Group</span>
-          <select
-            id="group-select"
-            className="selectpicker form-control"
-            data-live-search="true"
-            title="Select group ..."
-            onChange={this.changeGroup}
-          >
-            <option>B1 & B2 Managed</option>
-            <option>B3 & B4 Managed</option>
-            <option>B5 & B6 Managed</option>
-            <option>All Managed</option>
-          </select>
-        </div>
-        <section className="section-field">
-          <img
-            className="thumb-group-invite"
-            src={thumbGroupInvite}
-            alt="Group Invite Link"
-          />
-          <h3 className="group-invite-title">Group Invite Link</h3>
-
-          <ClipboardButton
-            component="a"
-            button-href="#"
-            className="copy-link-command a-link disable-select"
-            data-clipboard-text={this.state.url}
-          >
-            Copy Invite Link to Clipboard
-          </ClipboardButton>
-
-          <div className="padded-wrapper">
-            <FormControl
-              id="clipboardUrl"
-              type="text"
-              className="clipboard-url"
-              value={this.state.url}
-              title={this.state.url}
-            />
-            <div className="instruction-main gray-text">
-              Feel free to: send it, post it, tweet it (<a
-                className="a-link disable-select"
-                onClick={this.generateLink}
-              >
-                Generate new link and delete old
-              </a>)
+        <div className="container-fluid">
+          <div className="row">
+            <div className="col-lg-6 col-md-8 col-sm-8">
+              <h1 className="invite-and-approve-title">Invite & Approve</h1>
+              <div className="input-group">
+                <span className="input-group-addon">Group</span>
+                <select
+                  id="group-select"
+                  className="selectpicker form-control"
+                  data-live-search="true"
+                  title="Select group ..."
+                  onChange={this.changeGroup}
+                >
+                  <option>B1 & B2 Managed</option>
+                  <option>B3 & B4 Managed</option>
+                  <option>B5 & B6 Managed</option>
+                  <option>All Managed</option>
+                </select>
+              </div>
+            </div>
+            <div className="col-lg-auto col-md-auto col-sm-auto col-xs-auto">
+              &nbsp;
             </div>
           </div>
-          <div className="instruction-or">&mdash; Or &mdash;</div>
-          <Button
-            type="button"
-            className="btn btn-lg clean-button"
-            onClick={this.sendLinkCommand}
-          >
-            Send Invite Emails
-          </Button>
-        </section>
+
+          <div className="row section-field">
+            <div className="col-lg-2 col-md-2 col-sm-2" />
+            <div className="col-lg-8 col-md-8 col-sm-8">
+              <img
+                className="thumb-group-invite"
+                src={thumbGroupInvite}
+                alt="Group Invite Link"
+              />
+              <h3 className="group-invite-title">Group Invite Link</h3>
+
+              <ClipboardButton
+                component="a"
+                button-href="#"
+                className="copy-link-command a-link disable-select"
+                data-clipboard-text={this.state.url}
+              >
+                Copy Invite Link to Clipboard
+              </ClipboardButton>
+
+              <FormControl
+                id="clipboardUrl"
+                type="text"
+                className="clipboard-url"
+                value={this.state.url}
+                title={this.state.url}
+              />
+
+              <div className="instruction-main gray-text">
+                Feel free to: send it, post it, tweet it (<a
+                  className="a-link disable-select"
+                  onClick={this.generateLink}
+                >
+                  Generate new link and delete old
+                </a>)
+              </div>
+
+              <div className="instruction-or">&mdash; Or &mdash;</div>
+              <Button
+                type="button"
+                className="btn btn-lg clean-button"
+                onClick={this.sendLinkCommand}
+              >
+                Send Invite Emails
+              </Button>
+            </div>
+            <div className="col-lg-2 col-md-2 col-sm-2" />
+          </div>
+        </div>
       </div>
     );
   }
