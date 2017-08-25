@@ -1,7 +1,7 @@
 # For Natalie
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
-### Part 1 -  3 Existing Web site critique
+### Part 1 - Existing Web site critique
 _Please go to our website at www.backblaze.com and look around.  Provide at least 3 suggestions for improving the quality of our site UI from a technical perspective._
 #### LAYOUT
 - Mobile Chrome > iPhone6 layout panels are too tight
