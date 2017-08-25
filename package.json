@@ -8,10 +8,8 @@
     "react": "^15.6.1",
     "react-bootstrap": "^0.31.2",
     "react-clipboard.js": "^1.1.2",
-    "react-copy-to-clipboard": "^5.0.0",
     "react-dom": "^15.6.1",
-    "react-scripts": "1.0.11",
-    "sha1": "^1.1.1"
+    "react-scripts": "1.0.11"
   },
   "scripts": {
     "start": "react-scripts start",
