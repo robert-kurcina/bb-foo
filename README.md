@@ -1,5 +1,5 @@
-# For Natalie
-This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
+# OVERVIEW
+This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app). It requires that NodeJS and the Yarn package are available.
 
 ### Part 1 - Existing Web site critique
 _Please go to our website at www.backblaze.com and look around.  Provide at least 3 suggestions for improving the quality of our site UI from a technical perspective._
@@ -77,11 +77,12 @@ Your submission will be analyzed based on:
 #### Installation
 ```
 1. Presuming that NodeJS and npm is available, otherwise visit here: [https://docs.npmjs.com/getting-started/installing-node
-2. cd ~/projects
-3. git clone https://github.com/robert-kurcina/bb-foo.git
-4. cd bb-foot.git
-5. yarn install
-6. yarn start
+2. npm install yarn --save
+3. cd ~/projects
+4. git clone https://github.com/robert-kurcina/bb-foo.git
+5. cd bb-foot.git
+6. yarn install
+7. yarn start
 ```
 #### Viewing
 - A browser will open at port 3000 and display some cool stuff
